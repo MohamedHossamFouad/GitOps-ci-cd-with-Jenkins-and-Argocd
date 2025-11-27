@@ -26,6 +26,10 @@ E --> F[ArgoCD Sync]
 F --> G[Kubernetes Deployment]
 G --> H[Pods Running + Self Healing]
 ```
+## 📌 project-diagram
+
+![project-diagram](assets/project-diagram.png)
+
 
 ---
 
@@ -154,6 +158,12 @@ pipeline {
     }
 }
 ```
+## 🟦 Jenkins Pipeline - SUCCESS
+
+![Jenkins Pipeline](assets/jenkins-success2.png)
+
+![Jenkins Pipeline](assets/jenkins-success.png)
+
 
 ---
 
@@ -186,7 +196,7 @@ kind: Deployment
 metadata:
   name: project-k8s12
 spec:
-  replicas: 3
+  replicas: 6
   selector:
     matchLabels:
       app: project-k8s12
@@ -201,6 +211,10 @@ spec:
           ports:
             - containerPort: 3000
 ```
+## 🟩 Kubernetes Pods Running
+
+![Pods Running](assets/pods-running.png)
+
 
 ### service.yaml
 
@@ -243,6 +257,11 @@ spec:
       prune: true
       selfHeal: true
 ```
+## 🟩 ArgoCD Application - Synced & Healthy
+
+![ArgoCD Sync](assets/argocd-sync.png)
+
+![ArgoCD Sync](assets/argocd-sync2.png)
 
 ---
 
