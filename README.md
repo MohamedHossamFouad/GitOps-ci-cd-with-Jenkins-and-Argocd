@@ -28,7 +28,7 @@ G --> H[Pods Running + Self Healing]
 ```
 ## 📌 project-diagram
 
-![project-diagram](assets/project-diagram.png)
+![project-diagram](images/project-diagram.png)
 
 
 ---
@@ -160,9 +160,9 @@ pipeline {
 ```
 ## 🟦 Jenkins Pipeline - SUCCESS
 
-![Jenkins Pipeline](assets/jenkins-success2.png)
+![Jenkins Pipeline](images/jenkins-success2.png)
 
-![Jenkins Pipeline](assets/jenkins-success.png)
+![Jenkins Pipeline](images/jenkins-success.png)
 
 
 ---
@@ -213,7 +213,7 @@ spec:
 ```
 ## 🟩 Kubernetes Pods Running
 
-![Pods Running](assets/pods-running.png)
+![Pods Running](images/pods-running.png)
 
 
 ### service.yaml
@@ -259,9 +259,9 @@ spec:
 ```
 ## 🟩 ArgoCD Application - Synced & Healthy
 
-![ArgoCD Sync](assets/argocd-sync.png)
+![ArgoCD Sync](images/argocd-sync.png)
 
-![ArgoCD Sync](assets/argocd-sync2.png)
+![ArgoCD Sync](images/argocd-sync2.png)
 
 ---
 
